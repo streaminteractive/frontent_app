@@ -1,4 +1,5 @@
-# Flutter related
+# Flutter/Dart/Pub related
+**/doc/api/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -6,139 +7,64 @@
 .pub-cache/
 .pub/
 build/
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_export_environment.sh
-ios/ServiceDefinitions.json
-android/.gradle/
-android/app/app.iml
-android/local.properties
-android/.idea/
-.android/
-
-
-# Ignorar Podfile.lock de iOS y macOS
-ios/Podfile.lock
-macos/Podfile.lock
-
-# Ignorar Podfile si decides no subirlo
-ios/Podfile
-macos/Podfile
-
-
-# IntelliJ related (JetBrains IDEs)
 .idea/
+.melody.yaml
+*.iml
+
+# IntelliJ related
 *.iml
 *.ipr
 *.iws
-.idea_modules/
+.idea/
 
-# VS Code related
+# Visual Studio Code related
 .vscode/
-*.code-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# Byte-compiled / optimized / DLL files
-*.dll
-*.so
-*.dylib
+# Bazel related
+.bazel/
+bazel-*
 
-# Android Studio related
-.gradle/
+# Mac related
+.DS_Store
+
+# Linux related
+*.hprof
+
+# Windows related
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Android related
 local.properties
-.idea/workspace.xml
-.idea/libraries
-.idea/shelf/
-.idea/modules.xml
-.idea/.name
-.idea/gradle.xml
-.idea/vcs.xml
-.idea/.idea/
-.idea/googleservices.json
-.idea/lint.xml
-.idea/caches/
-.idea/filetypes/
-.idea/launch.json
-.idea/workspace.xml
+**/android/key.properties
+**/android/app/google-services.json
+**/android/app/src/main/res/raw/keystore.jks
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/engine/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/.symlinks/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Packages get
+.poor_modules/
+
+# Web related
+web/assets/
 
 # Generated files
-*.g.dart
-*.mocks.dart
+*.lock
 *.log
-*.class
-*.jar
-*.war
-*.ear
+*.tmp
 *.swp
-*.DS_Store
-*.sublime-workspace
-*.tmproj
-*.tm_properties
-*.vscode/
-*.code-snippets
-*.js.map
-*.dart_tool/
-*.android/
-*.ios/
-*.packages
-*.flutter-plugins-dependencies
-.flutter-plugins-dependencies
-android/.gradle
-android/app/build/
-android/gradle/
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/Flutter.framework/
-ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/ephemeral/
-web/
-build/
-example/build/
-.macros/
-pubspec.lock
-.idea/
-.vscode/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-
-# Xcode
-xcuserdata/
-DerivedData/
-.idea/
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/Flutter/Flutter.framework/
-ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_export_environment.sh
-ios/ServiceDefinitions.json
-ios/Runner.xcworkspace/
-!ios/Runner.xcodeproj/project.pbxproj
-
-# Mac specific
-*.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
