@@ -35,6 +35,8 @@ ThemeData appTheme = ThemeData(
     onSecondary: AppColors.textOnSecondary,
     error: Colors.red,
     onError: AppColors.white,
+    background: Colors.white,
+    onBackground: Colors.black,
     surface: AppColors.white,
     onSurface: AppColors.textColor,
   ),
